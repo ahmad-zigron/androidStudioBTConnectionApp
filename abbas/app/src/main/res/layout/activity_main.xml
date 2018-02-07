@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#080c47"
+    tools:context="com.example.ahmad.abbas.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnCondition"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:background="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:text="connect with arduino"
+        android:textColor="#080c47"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRescue"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/btnCondition"
+        android:layout_below="@+id/btnCondition"
+        android:layout_marginTop="58dp"
+        android:background="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Send Location "
+        android:textColor="#080c47"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="WELL COME to Smart Traffic System!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+</RelativeLayout>

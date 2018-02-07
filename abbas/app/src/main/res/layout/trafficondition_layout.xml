@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+
+    android:background="#080c47"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Check Out The Density Of Vehicles On Every Side Of The Road"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_weight="0.7"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="Firstly You Have To Connect The Bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView13"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="There is Not Any OutPut from your System "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="77dp"
+        android:id="@+id/vehicles1"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="There is Not Any OutPut from your System "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vehicles2"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/vehicles1" />
+
+    <TextView
+        android:text="There is Not Any OutPut from your System "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vehicles4"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/vehicles3"
+        android:layout_alignStart="@+id/vehicles2" />
+
+    <TextView
+        android:text="There is Not Any OutPut from your System "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vehicles3"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/vehicles2"
+        android:layout_alignStart="@+id/vehicles4" />
+</RelativeLayout>
