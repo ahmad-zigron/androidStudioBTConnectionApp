@@ -8,13 +8,3 @@ pipeline{
     }
   }
 }
-pipeline{
-  agent any
-  stages {
-    stage ('SECOND PIPELINE') {
-      steps {
-        echo'dusri pieline'
-      }
-    }
-  }
-}
